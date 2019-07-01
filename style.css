@@ -964,9 +964,6 @@ main .hero h1 {
 
 
 
-@media (max-width: 350px){
-    #logo {display:none;}
-}
 
 
 @media (min-width: 1200px) {.service_area {width:80%;}}
