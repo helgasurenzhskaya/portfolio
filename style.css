@@ -998,3 +998,8 @@ padding-right: 1em;
 
 .page-title {font-weight: 600; padding-bottom: 1em;}
 
+.arrow-container-left {margin-left: -50px;}
+.arrow-container-right{margin-right: -50px;}
+
+@media (max-width: 900px) {.arrow-container-left {margin-left: 0px;}
+.arrow-container-right{margin-right: 0px;}}
