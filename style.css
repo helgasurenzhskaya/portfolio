@@ -315,7 +315,8 @@ main > p {
 
 #portfolio {
   background-color: #111;
-color: white;}
+color: white;
+padding-bottom: 2em;}
   #portfolio h2 {
     padding-bottom: 1em;
 padding-top: 1em;}
@@ -325,9 +326,7 @@ padding-top: 1em;}
     margin-top: 0.625em; } }
 .portfolio-projects--title {
   margin-top: 0.9375em; }
-  @media screen and (min-width: 768px) {
-    .portfolio-projects--title {
-      margin-top: 20%; } }
+  
   @media screen and (min-width: 1200px) {
     .portfolio-projects--title {
       margin-top: 5%; } }
@@ -345,6 +344,15 @@ padding-top: 1em;}
     border-color: #FA7268;
     color: #fff; 
 }
+.portfolio-projects--btn:active {
+    border-color: #FA7268;
+    color: #fff; 
+}
+.portfolio-projects--btn:focus {
+    border-color: #FA7268;
+    color: #fff; 
+}
+
 .portfolio-projects--image {
   margin-bottom: 1.875em;
   padding-top: 5%; }
@@ -647,9 +655,7 @@ footer .social a:hover {
  
   flex: 1;
 }
-.split-screen__left {
-  background-color: black;
-}
+
 
 
 @media (max-width: 450px) { 
@@ -662,12 +668,7 @@ footer .social a:hover {
     #scroll-indicator {display: none;}}
 
 
-@media (max-width: 899px) {
-.split-screen__left {
-   
-    display: none;
-}
-}
+
 
 .svg {width: 90%; margin: auto;}
 
@@ -714,6 +715,10 @@ footer .social a:hover {
     width: 700px;
     }}
 
+@media (min-width: 992px) {
+.container {
+    width: 900px;
+    }}
 @media (min-width: 1050px){
 .container {
     width: 940px;
@@ -734,7 +739,7 @@ footer .social a:hover {
 
 .gallery-container {
   width: 100%;
-  background: transparent;
+  background: #111;
   padding: 16px 0;
   overflow: none;
   position: relative;
@@ -784,12 +789,12 @@ footer .social a:hover {
   overflow: hidden;
 }
 .tile {
-  height: 150px;
+  height: auto;
   background: #000;
   width: 260px;
   display: inline-block;
   margin-right: 12px;
-  padding-top: 56px;
+  margin-left: 12px;
   text-align: center;
   font-size: 18px;
   font-weight: bold;
@@ -859,7 +864,7 @@ footer .social a:hover {
         a,
         a:active,
         a:focus {
-            color: #6f6f6f;
+            color: #000;
             text-decoration: none;
             transition-timing-function: ease-in-out;
             -ms-transition-timing-function: ease-in-out;
@@ -1000,3 +1005,110 @@ padding-right: 1em;
 
 @media (max-width: 900px) {.arrow-container-left {margin-left: 0px;}
 .arrow-container-right{margin-right: 0px;}}
+
+.sec-testimonials p {
+  font-style: italic;
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap");
+
+
+.articles__list a {
+  color: #000;
+  text-decoration: none;
+    border:0px;
+}
+
+figure {
+  margin: 0;
+}
+
+.articles__list .article__item {
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+.articles__list .article__text {
+  display: none;
+}
+
+.article__item {
+  align-items: flex-start;
+  background-color: #fff;
+  display: flex;
+  position: relative;
+}
+.article__item h2 {
+  font-family: "Playfair Display";
+  font-size: 30px;
+  margin-top: .5rem;
+  line-height: 40px;
+}
+.article__item .article__body {
+  flex: 1 1 auto;
+}
+.article__item .article__category {
+  z-index: 1;
+}
+.article__item .article__category .category__name {
+  font-weight: 700;
+}
+.article__item .article__category,
+.article__item .article__date {
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 0.6875rem;
+  letter-spacing: 0.92px;
+  text-transform: uppercase;
+  position: relative;
+}
+.article__item .article__category a:hover {
+  text-decoration: underline;
+}
+.article__item .article__block-link {
+  display: block;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  text-indent: -100%;
+  white-space: nowrap;
+  z-index: 0;
+  overflow: hidden;
+}
+.article__item .article__date {
+  color: #737273;
+}
+.article__item .article__photo img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.article__item .article__photo {
+  flex: 0 0 140px;
+  height: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:transparent;
+}
+.article__item .article__photo .fab {
+  font-size: 4rem;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .article__photo {
+    margin-right: 2rem;
+  }
+}
+
+video {max-width: 100%;
+    height: auto;}
+
+
+@media (min-width: 1200px) {.portfolio-projects--image {
+    
+     padding-top: 0; 
+    
+}}
