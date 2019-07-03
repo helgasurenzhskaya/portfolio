@@ -1036,9 +1036,4 @@ main .hero h1 {
 	}
 }
 
-@media (max-width: 450px){
-	.hero{
-		height: 35em;
-	}
-}
 
