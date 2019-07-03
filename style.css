@@ -1038,7 +1038,7 @@ main .hero h1 {
 
 @media (max-width: 450px){
 	.hero{
-		height: 40vh;
+		height: 35em;
 	}
 }
 
