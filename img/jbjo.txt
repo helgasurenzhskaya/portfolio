@@ -1,2 +1,0 @@
- <video autoplay="" loop="" id="video-background" poster="mg/see.png" muted=""><source src="img/video.mp4" type="video/mp4"></video>
-  
