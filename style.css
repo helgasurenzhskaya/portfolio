@@ -83,7 +83,6 @@ main > * {
 }
 main .hero {
 	background: #fff;
-	height: 20em;
 }
 main .hero h1 {
 	line-height: normal;
