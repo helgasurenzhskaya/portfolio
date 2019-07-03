@@ -1036,4 +1036,11 @@ main .hero h1 {
 	}
 }
 
+@media (max-width: 450px){
+	.hero{
+		padding: 0;
+	}
+}
+
+	
 
