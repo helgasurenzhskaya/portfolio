@@ -1030,3 +1030,7 @@ main .hero h1 {
 	}
 }
 
+@media (max-width: 360px) {
+	.mobile{
+		font-size: 4.5em;
+	}
