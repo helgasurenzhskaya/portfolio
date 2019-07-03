@@ -360,6 +360,65 @@
     <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
     <script src='https://cdn.jsdelivr.net/jquery.scrollto/2.1.0/jquery.scrollTo.min.js'></script>
     <script src='js/script.js'></script>
+    <script>
+        angular.module('myApp', [])
+    .directive('expandableFixedHeight', function() {
+        return {
+            restrict: 'EA',
+            transclude: true,
+            link: function(scope, elm, attrs) {
+                var collapsed = true;
+                var maxHeight = 500;
+                var collapsedHeight = scope.$eval(attrs.expandableFixedHeight);
+                var fixedContainer = $(elm).find('.fixed-height');
+                var toggleTrigger = $(elm).find('.toggle-trigger');
+                fixedContainer.css('overflow', 'hidden');
+                fixedContainer.css('maxHeight', collapsedHeight);
+                var toggleState = function() {
+
+                    if (!collapsed) {
+                        // compute current height and set as max height
+                        maxHeight = fixedContainer.height();
+                        fixedContainer.css('maxHeight', maxHeight);
+                        fixedContainer.animate({
+                            maxHeight: collapsedHeight
+                        });
+                    } else {
+                        fixedContainer.animate({
+                            maxHeight: maxHeight
+                        }, function() {
+                            fixedContainer.css('maxHeight', 'none');
+                        })
+                    }
+                    collapsed = !collapsed;
+                }
+
+                toggleTrigger.on('click', toggleState);
+
+            },
+            templateUrl: 'expandable_fixed_height.html'
+        }
+    })
+    .controller('MyCtrl', function($scope) {
+        $scope.tiles = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+        var currentPlace = 0;
+        var contentContainer = $('.gallery-content');
+
+        function getViewportSize() {
+            return $(document.body).outerWidth() / 2;
+        }
+        $scope.left = function() {
+            contentContainer.animate({
+                scrollLeft: '-=' + getViewportSize()
+            })
+        };
+        $scope.right = function() {
+            contentContainer.animate({
+                scrollLeft: '+=' + getViewportSize()
+            })
+        }
+    });
+    </script>
     
 </body>
 
