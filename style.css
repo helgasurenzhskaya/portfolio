@@ -1052,13 +1052,13 @@ main .hero h1 {
 	align-items: center;
 	width: 60%;
 }
-@media (min-width: 449px) {
-	#mobgal{
+@media (max-width: 449px) {
+	#deskgal{
 		display:none;
 	}
 }
-@media (max-width: 449px) {
-	#deskgal{
+@media (min-width: 449px) {
+	#mobgal{
 		display:none;
 	}
 }
