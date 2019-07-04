@@ -1062,6 +1062,9 @@ main .hero h1 {
 	.graphic{
 		display: none;
 	}
+	main {
+	padding-top: 0;
+}
 }
 @media (min-width: 449px) {
 	#mobgal{
@@ -1081,8 +1084,4 @@ main .hero h1 {
         padding-bottom: 3rem;
         font-weight: 700;
         padding-bottom: 0;
-}
-
-main {
-	padding-top: 0;
 }
