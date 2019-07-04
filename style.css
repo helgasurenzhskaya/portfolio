@@ -1026,6 +1026,7 @@ main .hero h1 {
 .mobile{
 	font-size: 4.5em;
 }
+}
 @media (max-width: 350px){
 	.mobile{
 		font-size: 4em;
