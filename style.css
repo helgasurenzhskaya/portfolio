@@ -1063,3 +1063,8 @@ main .hero h1 {
 		display:none;
 	}
 }
+
+#mobgal tile {
+	margin-right: 5px;
+        margin-left: 5px;
+}
