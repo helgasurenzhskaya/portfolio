@@ -1010,6 +1010,8 @@ main .hero h1 {
 	font-weight: 600;
 	padding-left: 3rem;
 	padding-right: 3rem;
+	padding-top: 0;
+        margin-top: 0;
 }
 }
 @media (min-width: 899px) {
@@ -1073,12 +1075,13 @@ main .hero h1 {
 }
 
 .mobile {
-    color: #FA7268;
-    text-align: left;
-    padding: 3rem;
+        color: #FA7268;
+        text-align: left;
+        padding: 3rem;
         padding-bottom: 3rem;
-    font-weight: 700;
-    padding-bottom: 0;
+        font-weight: 700;
+        padding-bottom: 0;
+	padding-top: 0;
 }
 
 .main {
