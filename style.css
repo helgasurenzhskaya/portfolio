@@ -1052,12 +1052,12 @@ main .hero h1 {
 	align-items: center;
 	width: 60%;
 }
-@media (min-width: 376px) {
+@media (max-width: 449px) {
 	#mobilegallery{
 		display:none;
 	}
 }
-@media (max-width: 376px) {
+@media (min-width: 449px) {
 	#desktopgallery{
 		display:none;
 	}
