@@ -1057,6 +1057,9 @@ main .hero h1 {
 	#deskgal{
 		display:none;
 	}
+	.graphic{
+		display: none;
+	}
 }
 @media (min-width: 449px) {
 	#mobgal{
@@ -1067,4 +1070,17 @@ main .hero h1 {
 #mobgal .tile {
 	margin-right: 5px;
         margin-left: 5px;
+}
+
+.mobile {
+    color: #FA7268;
+    text-align: left;
+    padding: 3rem;
+        padding-bottom: 3rem;
+    font-weight: 700;
+    padding-bottom: 0;
+}
+
+.main {
+	padding-top: 0;
 }
