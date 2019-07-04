@@ -1064,7 +1064,7 @@ main .hero h1 {
 	}
 }
 
-#mobgal tile {
+#mobgal .tile {
 	margin-right: 5px;
         margin-left: 5px;
 }
