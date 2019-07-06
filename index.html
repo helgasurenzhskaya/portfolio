@@ -42,7 +42,7 @@
                 <h3 class="desktop"><span style="color:#000;">SURENZH</span>-ART</h3>
                 <h3 class="mobile">
                     <span style="color:#000;">SURENZH<br></span>-ART
-                    <figure>
+                    <figure class="has-animation animation-ltr" data-delay="10">
 						<img src="img/log4.png" alt="Helga Surenzhskaya">
 					</figure>
                 </h3>
@@ -52,7 +52,8 @@
   </span>
 </h1>
 <img class="log" src="img/log4.png" style="width: 25%; padding:0; float: left; margin-top: -300px; " >
-            </section>
+            <hr class="has-animation animation-ltr" data-delay="10" style="width: 450px; height: 20px; left: 16%; ">
+		</section>
 
             <!-- Page content section - basic page content layout -->
             <div class="page section" id="about">
@@ -489,7 +490,15 @@
 
         });
     </script>
-
+<script>$(document).ready(function() {
+  $('.has-animation').each(function(index) {
+    $(this).delay($(this).data('delay')).queue(function(){
+      $(this).addClass('animate-in');
+    });
+  });
+});
+</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 </body>
 
 </html>
