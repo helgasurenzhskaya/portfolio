@@ -1111,7 +1111,7 @@ main .hero h1 {
   background-color: #50bfc7;
 }
 .has-animation.animate-in:after {
-  background-color: #FA7268;
+  background-color: #000;
   animation-delay: .5s;
 }
 .has-animation.animation-ltr.animate-in:before {
