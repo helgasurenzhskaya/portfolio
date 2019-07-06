@@ -1085,3 +1085,6 @@ main .hero h1 {
         font-weight: 700;
         padding-bottom: 0;
 }
+.touch {
+	border: 0px;
+}
