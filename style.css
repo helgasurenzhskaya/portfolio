@@ -979,12 +979,12 @@ height: auto;
 	padding-top: 0;
 }
 }
-.desktop{
-font-size: 8em;
-color: #FA7268;
-padding: 0;
-font-weight: 700;
-text-align: center;
+.desktop {
+    font-size: 10em;
+    color: #FA7268;
+    padding: 0;
+    font-weight: 700;
+    text-align: right;
 }
 .mobile{
 color: #FA7268;
@@ -994,12 +994,13 @@ padding: 3rem;
 font-weight: 700;
 }
 main .hero h1 {
-line-height: normal;
-font-size: 2em;
-text-align: left;
-color: #FA7268;
-font-weight: 600;
-padding-left: 2.5em;
+    line-height: normal;
+    font-size: 2em;
+    text-align: left;
+    color: #50bfc7;
+    font-weight: 600;
+    padding-left: 5.5em;
+    margin-top: -120px;
 }
 @media (max-width: 900px){
 main .hero h1 {
