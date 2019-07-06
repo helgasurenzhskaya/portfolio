@@ -984,6 +984,7 @@ height: auto;
     padding: 0;
     font-weight: 700;
     text-align: right;
+	padding-right: 3rem;
 }
 .mobile{
 color: #FA7268;
