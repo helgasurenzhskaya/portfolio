@@ -979,12 +979,12 @@ height: auto;
 }
 }
 .desktop {
-    font-size: 10em;
+    font-size: 9.85em;
     color: #FA7268;
     padding: 0;
     font-weight: 700;
     text-align: right;
-	padding-right: 3rem;
+	padding-right: 2.2rem;
 }
 .mobile{
 color: #FA7268;
