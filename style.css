@@ -1176,4 +1176,6 @@ font-family: FontAwesome;
 .fa-send:before {
 font-family: FontAwesome; 
 }
-
+.fa-envelop:before {
+font-family: FontAwesome; 
+}
