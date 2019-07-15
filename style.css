@@ -1165,7 +1165,15 @@ main .hero h1 {
 c {color: #50bfc7;}
 d {color: #FA7268;}
 
-social:before {
-content: ""; 
+.fa-behance:before {
 font-family: FontAwesome; 
 }
+
+.fa-github:before {
+font-family: FontAwesome; 
+}
+
+.fa-send:before {
+font-family: FontAwesome; 
+}
+
