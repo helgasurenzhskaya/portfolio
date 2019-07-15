@@ -1164,3 +1164,8 @@ main .hero h1 {
 }
 c {color: #50bfc7;}
 d {color: #FA7268;}
+
+social:before {
+content: ""; 
+font-family: FontAwesome; 
+}
