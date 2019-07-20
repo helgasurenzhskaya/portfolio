@@ -64,6 +64,25 @@ nav li {
 	display: inline;
 	margin-left: 1em;
 }
+
+
+@font-face{
+
+font-family: 'K95Alphabet';
+
+src: url('./fonts/K95Alphabet.ttf');
+
+url('./fonts/K95Alphabet.ttf') format('truetype'),
+
+font-weight: normal;
+
+font-style: normal;
+
+}
+
+
+
+
 main {
 	padding-top: 60px;
 }
@@ -979,12 +998,13 @@ height: auto;
 }
 }
 .desktop {
-    font-size: 9.85em;
+    font-size: 8.75em;
     color: #FA7268;
     padding: 0;
     font-weight: 700;
     text-align: right;
-	padding-right: 2.2rem;
+    padding-right: 2.2rem;
+    font-family: K95Alphabet;
 }
 .mobile{
 color: #FA7268;
@@ -992,6 +1012,8 @@ font-size: 4.8em;
 text-align: left;
 padding: 3rem;
 font-weight: 700;
+	font-family: K95Alphabet;
+	    font-size: 4.2em;
 }
 main .hero h1 {
     line-height: normal;
