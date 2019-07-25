@@ -1202,4 +1202,12 @@ font-family: FontAwesome;
 }
 
 #logo {color: #50bfc7;
-font-family: K95 Alphabet;}
+font-family: 'K95Alphabet';}
+
+#rectangle {
+  width: 85px;
+  height: 200px;
+  background: #FA7268;
+    margin-left: 15.3rem;
+    margin-bottom: -170px;
+}
