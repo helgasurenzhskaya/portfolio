@@ -1211,3 +1211,12 @@ font-family: 'K95Alphabet';}
     margin-left: 15.3rem;
     margin-bottom: -170px;
 }
+
+h2::before {
+	content: '';
+	display: inline-block;
+	margin: 0 5px -9px -2px;
+	width: 3px;
+	height: 1.5em;
+	background: #333;
+}
