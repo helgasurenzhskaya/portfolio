@@ -1212,7 +1212,7 @@ font-family: 'K95Alphabet';}
     margin-bottom: -170px;
 }
 
-h2::before {
+main h2::before {
 	content: '';
 	display: inline-block;
 	margin: 0 5px -9px -2px;
