@@ -1292,3 +1292,8 @@ main h2::before {
 		 width: calc(100% - 0px) !important;
 	}
 
+ @media (max-width: 1000px){
+.wrapperr .mainn-content {
+   
+    flex-direction: column;
+}
