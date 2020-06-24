@@ -1220,3 +1220,75 @@ main h2::before {
 	height: 1.5em;
 	background: #333;
 }
+
+
+ .wrapperr {
+	
+	 height: auto;
+	 padding-top: 20px;
+	 display: flex;
+	 flex-direction: row;
+	 justify-content: flex-start;
+	 align-items: flex-start;
+}
+ 
+ .wrapperr .mainn-content {
+	 width: calc(100% - 270px);
+	 min-width: 300px;
+	 height: auto;
+	 
+	
+	 display: flex;
+	 flex-direction: row;
+	 flex-wrap: wrap;
+	 justify-content: stretch;
+}
+ .wrapperr .mainn-content .column {
+	 text-align: right;
+	 flex: 1;
+	 height: 100%;
+	 padding-top: 0px;
+}
+ .wrapperr .mainn-content .column-one .image {
+	 width: calc(100% - 30px);
+	 margin: 15px 15px 15px 0;
+}
+ .wrapperr .mainn-content .column-two .image {
+	 width: calc(100% - 30px);
+	 margin: 15px 15px 15px 0;
+}
+ .wrapperr .mainn-content .column-three .image {
+	 width: calc(100% - 30px);
+	 margin: 15px 15px 15px 0;
+}
+ @media (max-width: 590px) {
+	 .wrapperr {
+		 flex-direction: column !important;
+		 align-items: center !important;
+	}
+	 
+	 .fa-chevron-down {
+		 display: block !important;
+		 flex: 0.23;
+		 padding-top: 10px;
+		 padding-right: 20px;
+		 position: relative;
+		 top: -5px;
+		 text-align: right;
+		 font-size: 28px;
+		 cursor: pointer;
+		 animation: animate 0.9s 2s ease-in infinite alternate;
+	}
+	 .fa-chevron-down:hover {
+		 animation: none;
+	}
+	 
+	 .mainn-content {
+		 width: calc(100% - 0px) !important;
+	}
+}
+ 
+ .mainn-content {
+		 width: calc(100% - 0px) !important;
+	}
+
