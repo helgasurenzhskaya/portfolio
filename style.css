@@ -348,8 +348,9 @@ body > .container-fluid {
 	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
 	font-size: 1.125rem;
+		
 	-webkit-justify-content: space-between;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	padding: 0 1rem;
 	max-width: 1150px;
 	margin: 0 auto;
