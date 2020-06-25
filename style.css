@@ -101,7 +101,7 @@ main > * {
 	margin: 0 3em;
 }
 main .hero {
-	background: #fff;
+	background: #000;
 }
 main .hero h1 {
 	line-height: normal;
