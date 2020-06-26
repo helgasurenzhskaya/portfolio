@@ -1352,8 +1352,10 @@ main h2::before {
 	 
 	 .mobile{
 color: #50bfc7 !important;
-font-size: 4.8em;
+font-size: 4.6em !important;
 text-align: left;
 padding: 3rem;
 font-weight: 700;
+		 padding-top: 3rem !important;
+		 
 }
