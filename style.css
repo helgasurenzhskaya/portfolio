@@ -99,7 +99,7 @@ main > * {
 	margin: 0 3em;
 }
 main .hero {
-	background: #000;
+	background: #fff;
 }
 main .hero h1 {
 	line-height: normal;
@@ -1014,7 +1014,7 @@ height: auto;
     
 }
 .mobile{
-color: #FA7268;
+color: #50bfc7;
 font-size: 4.8em;
 text-align: left;
 padding: 3rem;
