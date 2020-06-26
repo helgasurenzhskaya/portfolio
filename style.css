@@ -732,6 +732,7 @@ color: black;
 font-size: 2.5rem;
 font-weight: 700;
 margin: 0 4rem;
+
 }
 .page-content .graphic figcaption:before {
 border-bottom: 2px solid black;
@@ -890,6 +891,7 @@ color: #000;
 }
 .wrapp {
 background: #fff;
+	color: #ffb471;
 }
 .page-title {
 font-weight: 600;
@@ -1038,6 +1040,10 @@ main .hero h1 {
 }
 @media (min-width: 899px) {
 .mobile{
+	display:none;
+}
+	@media (min-width: 899px) {
+.mobbb{
 	display:none;
 }
 }
