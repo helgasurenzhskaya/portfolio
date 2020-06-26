@@ -99,7 +99,7 @@ main > * {
 	margin: 0 3em;
 }
 main .hero {
-	background: #000;
+	background: #fff;
 }
 
 main .hero h1 {
@@ -1041,6 +1041,10 @@ main .hero h1 {
 @media (min-width: 899px) {
 .mobile{
 	display:none;
+}
+	@media (min-width: 899px) {
+.hero{
+	background: #000;
 }
 	@media (min-width: 899px) {
 .mobbb{
