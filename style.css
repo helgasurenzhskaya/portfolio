@@ -1012,7 +1012,7 @@ height: auto;
     font-weight: 700;
        display: flex;
     align-content: center;
-    
+    background: #000;
 }
 
 main .hero h1 {
