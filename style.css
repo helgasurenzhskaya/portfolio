@@ -1018,7 +1018,7 @@ main .hero h1 {
     line-height: normal;
     font-size: 2em;
     text-align: left;
-    color: #ffb471;
+    color: #FA7268;
     font-weight: 600;
     padding-left: 5.5em;
     margin-top: -120px;
@@ -1128,7 +1128,7 @@ main .hero h1 {
   z-index: 10;
 }
 .has-animation.animate-in:before {
-  background-color: #ffb471;
+  background-color: #FA7268;
 }
 .has-animation.animate-in:after {
   background-color: #000;
@@ -1201,7 +1201,7 @@ font-family: FontAwesome;
 font-family: FontAwesome; 
 }
 
-#logo {color: #ffb471;
+#logo {color: #FA7268;
 font-family: 'K95Alphabet';}
 
 #rectangle {
