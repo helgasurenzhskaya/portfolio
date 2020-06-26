@@ -23,7 +23,7 @@ header > a::before, main h2::before {
 	background: #333;
 }
 header > a:hover::before, main h2:hover::before {
-	background: #FA7268;
+	background: #ffb471;
 }
 .wrap {
 	background: #fff;
@@ -55,7 +55,7 @@ header a {
 	letter-spacing: 2px;
 }
 header a:hover::first-letter {
-	color: #FA7268;
+	color: #ffb471;
 }
 nav {
 	float: right;
@@ -89,10 +89,10 @@ main a {
 	border-bottom: 2px solid;
 }
 main a:hover {
-	border-color: #FA7268;
+	border-color: #ffb471;
 }
 main a:hover::after {
-	color: #FA7268;
+	color: #ffb471;
 }
 main > * {
 	padding: 3em 0 0 0;
@@ -111,7 +111,7 @@ main .hero h1 {
 	line-height: normal;
 	font-size: 5em;
 	text-align: center;
-	color: #FA7268;
+	color:#ffb471;
 	font-weight: 600;
 }
 main .hero hr {
@@ -308,15 +308,15 @@ main > p {
 	margin-bottom: 1.25em;
 }
 .portfolio-projects--btn:hover {
-	border-color: #FA7268;
+	border-color: #ffb471; 
 	color: #fff;
 }
 .portfolio-projects--btn:active {
-	border-color: #FA7268;
+	border-color:#ffb471;
 	color: #fff;
 }
 .portfolio-projects--btn:focus {
-	border-color: #FA7268;
+	border-color: #ffb471;
 	color: #fff;
 }
 .portfolio-projects--image {
@@ -424,7 +424,7 @@ label {
 	left: 0;
 	width: 0;
 	height: 2px;
-	background: #FA7268;
+	background:#ffb471;
 	z-index: 4;
 	transition: width 0.45s cubic-bezier(0.694, 0.048, 0.335, 1);
 }
@@ -446,7 +446,7 @@ input {
 }
 input:focus {
 	transition: border-color .25s;
-	border-color: #FA7268;
+	border-color: #ffb471;
 }
 textarea {
 	display: block;
@@ -543,7 +543,7 @@ font-weight: bold;
 transition: all, 0.3s;
 }
 footer .social a:hover {
-background-color: #FA7268;
+background-color: #ffb471;
 -moz-transition: all, 0.3s;
 -o-transition: all, 0.3s;
 -webkit-transition: all, 0.3s;
@@ -599,16 +599,16 @@ margin: auto;
 }
 @media (max-width: 450px){
 .face {
-	background-color: #FA7268;
+	background-color: #ffb471; 
 }
 .tweet {
-	background-color: #FA7268;
+	background-color:#ffb471;
 }
 .support {
-	background-color: #FA7268;
+	background-color: #ffb471;
 }
 .linked {
-	background-color: #FA7268;
+	background-color:#ffb471; 
 }
 }
 @media (max-width: 430px) {
@@ -672,7 +672,7 @@ cursor: pointer;
 text-decoration: none;
 }
 .gallery-container .arrow-container:hover .arrow {
-color: #FA7268;
+color: #ffb471;
 }
 .gallery-container .arrow-container.arrow-container-left {
 left: 0;
@@ -834,7 +834,7 @@ height: 100%;
 width: 0;
 }
 .progress-bar > span{
-background: #FA7268 none repeat scroll 0 0;
+background:#ffb471 none repeat scroll 0 0;
 }
 #contact {
 padding-top: 0;
@@ -1012,7 +1012,7 @@ height: auto;
 }
 .desktop {
     font-size: 9.85em;
-    color: #FA7268;
+    color: #ffb471;
     padding: 0;
     font-weight: 700;
        display: flex;
@@ -1024,7 +1024,7 @@ main .hero h1 {
     line-height: normal;
     font-size: 2em;
     text-align: left;
-    color: #FA7268;
+    color:#ffb471;
     font-weight: 600;
     padding-left: 5.5em;
     margin-top: -120px;
@@ -1106,7 +1106,7 @@ main .hero h1 {
 }
 
 .mobile {
-        color: #FA7268;
+        color:#ffb471;
         text-align: left;
         padding: 3rem;
         padding-bottom: 3rem;
@@ -1134,7 +1134,7 @@ main .hero h1 {
   z-index: 10;
 }
 .has-animation.animate-in:before {
-  background-color: #FA7268;
+  background-color: #ffb471;
 }
 .has-animation.animate-in:after {
   background-color: #000;
@@ -1190,7 +1190,7 @@ main .hero h1 {
   }
 }
 c {color: #50bfc7;}
-d {color: #FA7268;}
+d {color:#ffb471;}
 
 .fa-behance:before {
 font-family: FontAwesome; 
@@ -1207,13 +1207,13 @@ font-family: FontAwesome;
 font-family: FontAwesome; 
 }
 
-#logo {color: #FA7268;
+#logo {color: #ffb471;
 font-family: 'K95Alphabet';}
 
 #rectangle {
   width: 85px;
   height: 200px;
-  background: #FA7268;
+  background: #ffb471;
     margin-left: 15.3rem;
     margin-bottom: -170px;
 }
