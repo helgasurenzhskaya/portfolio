@@ -1013,13 +1013,7 @@ height: auto;
     align-content: center;
     
 }
-.mobile{
-color: #50bfc7;
-font-size: 4.8em;
-text-align: left;
-padding: 3rem;
-font-weight: 700;
-}
+
 main .hero h1 {
     line-height: normal;
     font-size: 2em;
@@ -1356,6 +1350,6 @@ font-size: 4.6em !important;
 text-align: left;
 padding: 3rem;
 font-weight: 700;
-		 padding-top: 3rem !important;
+padding-top: 3rem !important;
 		 
 }
