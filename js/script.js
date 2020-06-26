@@ -212,7 +212,7 @@ window.onload = function() {
     // inject css for hero text
     var css = document.createElement("style");
     css.type = "text/css";
-    css.innerHTML = ".typewrite > .wrapp { border-right: 0.08em solid #50bfc7}";
+    css.innerHTML = ".typewrite > .wrapp { border-right: 0.08em solid #ffb471}";
     document.body.appendChild(css);
 };
 // smooth scroll
