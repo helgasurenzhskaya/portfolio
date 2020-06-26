@@ -101,6 +101,12 @@ main > * {
 main .hero {
 	background: #fff;
 }
+.desktop .hero {
+	background: #000;
+}
+main .hero {
+	background: #fff;
+}
 main .hero h1 {
 	line-height: normal;
 	font-size: 5em;
