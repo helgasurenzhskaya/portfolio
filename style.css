@@ -592,16 +592,16 @@ margin: auto;
 }
 @media (max-width: 450px){
 .face {
-	background-color: #ffb471; 
+	background-color: #50bfc7; 
 }
 .tweet {
-	background-color:#ffb471;
+	background-color:#50bfc7;
 }
 .support {
-	background-color: #ffb471;
+	background-color: #50bfc7;
 }
 .linked {
-	background-color:#ffb471; 
+	background-color:#50bfc7; 
 }
 }
 @media (max-width: 430px) {
