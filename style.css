@@ -1348,3 +1348,12 @@ main h2::before {
 	
 	padding-top: 1rem;
 }
+
+	 
+	 .mobile{
+color: #50bfc7 !important;
+font-size: 4.8em;
+text-align: left;
+padding: 3rem;
+font-weight: 700;
+}
