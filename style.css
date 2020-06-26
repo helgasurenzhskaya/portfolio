@@ -1043,11 +1043,7 @@ main .hero h1 {
 	display:none;
 }
 }
-	@media (min-width: 899px) {
-.hero{
-	background: #000;
-}
-}
+	
 	@media (min-width: 899px) {
 .mobbb{
 	display:none;
@@ -1361,4 +1357,9 @@ text-align: left;
 font-weight: 700;
 padding-top: 3rem !important;
 	background: #fff;	 
+}
+	 @media (min-width: 899px) {
+main .hero {
+	background: #000;
+}
 }
