@@ -828,7 +828,7 @@ height: 100%;
 width: 0;
 }
 .progress-bar > span{
-background:#ffb471 none repeat scroll 0 0;
+background:#50bfc7 none repeat scroll 0 0;
 }
 #contact {
 padding-top: 0;
@@ -1191,7 +1191,7 @@ main .hero h1 {
   }
 }
 c {color: #50bfc7;}
-d {color:#ffb471;}
+d {color:#50bfc7;}
 
 .fa-behance:before {
 font-family: FontAwesome; 
