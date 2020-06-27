@@ -872,7 +872,7 @@ padding-bottom: 1em;
 @media (max-width: 699px) {
 #about {
 	padding: 3rem;
-	
+	padding-top: 1rem;
 }
 }
 A:link {
