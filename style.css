@@ -1348,7 +1348,8 @@ font-size: 4.6em;
 text-align: left;
 font-weight: 700;
 padding-top: 3rem;
-	 
+	  padding: 3rem;
+		 padding-bottom: 0;
 }
 	 @media (min-width: 899px) {
 main .hero {
