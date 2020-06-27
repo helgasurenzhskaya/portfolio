@@ -1361,3 +1361,8 @@ main .hero {
 	background: #000;
 }
 }
+	  @media (max-width: 899px) {
+main .hero {
+	display: none;
+}
+}
