@@ -1365,6 +1365,9 @@ main .hero {
 .has-animation.animate-in p, .has-animation.animate-in img {
   animation: textHidden 0.1s 1.1s forwards;
 }
+	 .has-animation.animate-in p, .has-animation.animate-in h3 {
+  animation: textHidden 0.1s 1.1s forwards;
+}
 .has-animation.animate-in:before, .has-animation.animate-in:after {
   content: '';
   position: absolute;
@@ -1429,3 +1432,4 @@ main .hero {
     opacity: 1;
   }
 }
+	 
