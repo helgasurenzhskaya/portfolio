@@ -1341,15 +1341,15 @@ main h2::before {
 	 
 	
 
-	 
-	 .mobile{
-color: #50bfc7;
-font-size: 4.6em;
-text-align: left;
-font-weight: 700;
-
-	  padding: 3rem;
-	
+	.mobile {
+    color: #50bfc7;
+    font-size: 4.4em;
+    text-align: left;
+    font-weight: 700;
+    padding: 3rem;
+    margin: 0;
+    display: grid;
+    align-content: center;
 }
 	 @media (min-width: 899px) {
 main .hero {
