@@ -1339,7 +1339,8 @@ main h2::before {
 }
 	 @media (max-width: 360px) {
 .mobile{
-	font-size: 4.2em;
+	font-size: 4.4em;
+	padding-top: 6rem;
 }
 }
 @media (max-width: 350px){
