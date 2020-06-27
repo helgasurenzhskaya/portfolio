@@ -1329,6 +1329,7 @@ main h2::before {
 
 	.mobile {
     color: #50bfc7;
+		font-size: 70.4px;
     font-size: 4.4em;
     text-align: left;
     font-weight: 700;
@@ -1339,12 +1340,15 @@ main h2::before {
 }
 	 @media (max-width: 360px) {
 .mobile{
+	font-size: 70.4px;
 	font-size: 4.4em;
 	padding-top: 6rem;
 }
 }
 @media (max-width: 350px){
 	.mobile{
+	
+		font-size: 70px;
 		font-size: 4em;
 	}
 }
