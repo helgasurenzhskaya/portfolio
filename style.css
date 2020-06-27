@@ -1107,14 +1107,7 @@ main .hero h1 {
         margin-left: 5px;
 }
 
-.mobile {
-        color:#ffb471;
-        text-align: left;
-        padding: 3rem;
-        padding-bottom: 3rem;
-        font-weight: 700;
-        padding-bottom: 0;
-}
+
 .touch {
 	border: 0px;
 }
@@ -1350,11 +1343,11 @@ main h2::before {
 
 	 
 	 .mobile{
-color: #50bfc7 !important;
-font-size: 4.6em !important;
+color: #50bfc7;
+font-size: 4.6em;
 text-align: left;
 font-weight: 700;
-padding-top: 3rem !important;
+padding-top: 3rem;
 	 
 }
 	 @media (min-width: 899px) {
