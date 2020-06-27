@@ -1349,6 +1349,7 @@ main h2::before {
     margin: 3rem;
     display: grid;
     align-content: center;
+		padding-top: 3rem;
 }
 	 @media (min-width: 899px) {
 main .hero {
