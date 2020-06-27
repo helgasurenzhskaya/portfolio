@@ -1359,7 +1359,7 @@ main .hero {
 .has-animation {
   position: relative;
 }
-.has-animation p, .has-animation img {
+.has-animation p, .has-animation img, .has-animation h3 {
   opacity: 0;
 }
 .has-animation.animate-in p, .has-animation.animate-in img {
