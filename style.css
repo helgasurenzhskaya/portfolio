@@ -1056,21 +1056,7 @@ main .hero h1 {
         display:none;
     }
 }
-@media (max-width: 360px) {
-.mobile{
-	font-size: 4.5em;
-}
-}
-@media (max-width: 350px){
-	.mobile{
-		font-size: 4em;
-	}
-}
-@media (max-width: 450px){
-	.hero{
-		padding: 0;
-	}
-}
+
 .swiper-slide {
 	/* Center slide text vertically */
 	display: -webkit-box;
@@ -1351,6 +1337,17 @@ main h2::before {
     align-content: center;
 		padding-top: 3rem;
 }
+	 @media (max-width: 360px) {
+.mobile{
+	font-size: 4.2em;
+}
+}
+@media (max-width: 350px){
+	.mobile{
+		font-size: 4em;
+	}
+}
+
 	 @media (min-width: 899px) {
 main .hero {
 	background: #000;
