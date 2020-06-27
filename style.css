@@ -35,7 +35,7 @@ header > a:hover::before, main h2:hover::before {
 	margin-bottom: 100px;
 }
 .wrap header {
-	padding: 2em 4em 1.5em;
+	padding: 2em 4em 2em;
 }
 header {
 	position: fixed;
@@ -1347,9 +1347,9 @@ color: #50bfc7;
 font-size: 4.6em;
 text-align: left;
 font-weight: 700;
-padding-top: 3rem;
+
 	  padding: 3rem;
-		 padding-bottom: 0;
+	
 }
 	 @media (min-width: 899px) {
 main .hero {
