@@ -1346,7 +1346,7 @@ main h2::before {
     font-size: 4.4em;
     text-align: left;
     font-weight: 700;
-    padding: 3rem;
+    margin: 3rem;
     display: grid;
     align-content: center;
 }
