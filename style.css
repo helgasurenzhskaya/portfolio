@@ -45,7 +45,7 @@ header {
 	background: #fff;
 	text-transform: uppercase;
 	font-size: .8em;
-	min-width: 300px;
+	min-width: 320px;
 	z-index: 99999;
 }
 header a {
