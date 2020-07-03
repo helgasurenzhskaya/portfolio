@@ -1037,7 +1037,7 @@ main .hero h1 {
         margin-top: 0;
 }
 }
-/*@media (min-width: 899px) {
+@media (min-width: 899px) {
 .mobile{
 	display:none;
 }
@@ -1055,8 +1055,7 @@ main .hero h1 {
     .log{
         display:none;
     }
-}*/ 
-.mobile {display:none;}
+}
 
 
 .swiper-slide {
