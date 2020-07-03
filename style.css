@@ -1432,7 +1432,6 @@ main .hero {
 }
 	 @media (max-width: 699px) {
 		 #about { padding: 3rem; padding-top: 3rem;}}
-	 @media (min-width: 999px) {
+	 @media (max-width: 999px) {
 		 #about { padding: 3rem; padding-top: 1rem;}}
-	 @media (min-width: 1005px) {
-		 #about { padding: 3rem; padding-top: 1rem;}}
+	
