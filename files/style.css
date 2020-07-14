@@ -1,6 +1,11 @@
 
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&subset=cyrillic');
+*, body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .snip1482 {
 	font-family: 'Open Sans', Arial, sans-serif;
 	position: relative;
