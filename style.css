@@ -1435,7 +1435,7 @@ main .hero {
 	 @media (max-width: 699px) {
 		 #about { padding: 3rem; padding-top: 3rem;}}
 	 
-	 .animm {animation: textHidden 0.1s 1.1s forwards;}
+	 p {animation: textHidden 0.1s 1.1s forwards;}
 	
 @keyframes textHidden {
   0% {
