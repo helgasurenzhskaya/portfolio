@@ -213,6 +213,7 @@ window.onload = function() {
     var css = document.createElement("style");
     css.type = "text/css";
     css.innerHTML = ".typewrite > .wrapp { border-right: 0.08em solid #000}";
+     css.innerHTML = ".typewrite {color: #000}";
     document.body.appendChild(css);
 };
 // smooth scroll
