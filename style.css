@@ -1377,7 +1377,7 @@ main .hero {
   z-index: 10;
 }
 .has-animation.animate-in:before {
-  background-color: #ffb471;
+  background-color: #50bfc7;
 }
 .has-animation.animate-in:after {
   background-color: #000;
