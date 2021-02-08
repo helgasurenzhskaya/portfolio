@@ -371,7 +371,7 @@ body > .container-fluid {
 }
 .stats-listing .count {
 	display: block;
-	font-size: 2.5rem;
+	font-size: 2.2rem;
 	font-weight: 700;
 }
 .stats-listing .count:after {
@@ -649,6 +649,7 @@ background: transparent;
 padding: 16px 0;
 overflow: none;
 position: relative;
+	margin-bottom: 1.4em;
 }
 .gallery-container .arrow-container {
 position: absolute;
