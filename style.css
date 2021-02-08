@@ -645,7 +645,7 @@ display: block;
 }
 .gallery-container {
 width: 100%;
-background: #111;
+background: transparent;
 padding: 16px 0;
 overflow: none;
 position: relative;
