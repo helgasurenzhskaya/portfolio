@@ -92,7 +92,7 @@ font-style: normal;
 
 
 main a {
-	color: #50bfc7;
+	color: inherit;
 	border-bottom: 2px solid;
 }
 main a:hover {
