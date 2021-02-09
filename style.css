@@ -128,6 +128,9 @@ main .hero p {
 	font-size: 0.8em;
 	line-height: 1.2em;
 }
+
+.content {display:none;}
+
 main .content p {
 	max-width: 35em;
 }
@@ -1449,6 +1452,6 @@ main .hero {
   }
 }
 	 @media (max-width: 699px) {
-		 #about { padding: 3rem; padding-top: 3rem;}}
+		 #about { padding: 3rem; padding-top: 3rem; padding-bottom: 0;}}
 	 
 	 .fa-4x {font-size: 3rem;}
