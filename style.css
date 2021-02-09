@@ -688,6 +688,9 @@ display: table-cell;
 vertical-align: middle;
 color: white;
 }
+
+.arrow {font-size: 1rem;}
+
 .gallery-container .gallery-content {
 white-space: nowrap;
 overflow: hidden;
