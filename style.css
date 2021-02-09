@@ -24,9 +24,9 @@ outline:none !important;
 header > a::before, main h2::before {
 	content: '';
 	display: inline-block;
-	margin: 0 5px 0 -2px;
+	margin: 0 5px -3px -2px;
 	width: 2.4px;
-	height: .7em;
+	height: 1.4em;
 	background: #333;
 }
 header > a:hover::before, main h2:hover::before {
