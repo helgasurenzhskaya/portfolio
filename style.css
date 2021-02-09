@@ -23,7 +23,7 @@ header > a::before, main h2::before {
 	background: #333;
 }
 header > a:hover::before, main h2:hover::before {
-	background: #43a2a8;
+	background: #50bfc7;
 }
 .wrap {
 	background: #fff;
