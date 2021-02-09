@@ -23,7 +23,7 @@ header > a::before, main h2::before {
 	background: #333;
 }
 header > a:hover::before, main h2:hover::before {
-	background: #ffb471;
+	background: #43a2a8;
 }
 .wrap {
 	background: #fff;
@@ -55,7 +55,7 @@ header a {
 	letter-spacing: 2px;
 }
 header a:hover::first-letter {
-	color: #ffb471;
+	color: #43a2a8;
 }
 nav {
 	float: right;
@@ -89,10 +89,10 @@ main a {
 	border-bottom: 2px solid;
 }
 main a:hover {
-	border-color: #ffb471;
+	border-color:  #43a2a8;
 }
 main a:hover::after {
-	color: #ffb471;
+	color:  #43a2a8;
 }
 main > * {
 	padding: 3rem 0 0 0;
@@ -104,7 +104,7 @@ main .hero h1 {
 	line-height: normal;
 	font-size: 5em;
 	text-align: center;
-	color:#ffb471;
+	color: #43a2a8;
 	font-weight: 600;
 	display: none;
 }
@@ -302,15 +302,15 @@ main > p {
 	margin-bottom: 1.25em;
 }
 .portfolio-projects--btn:hover {
-	border-color: #ffb471; 
+	border-color:  #43a2a8; 
 	color: #fff;
 }
 .portfolio-projects--btn:active {
-	border-color:#ffb471;
+	border-color: #43a2a8;
 	color: #fff;
 }
 .portfolio-projects--btn:focus {
-	border-color: #ffb471;
+	border-color:  #43a2a8;
 	color: #fff;
 }
 .portfolio-projects--image {
@@ -419,7 +419,7 @@ label {
 	left: 0;
 	width: 0;
 	height: 2px;
-	background:#ffb471;
+	background: #43a2a8;
 	z-index: 4;
 	transition: width 0.45s cubic-bezier(0.694, 0.048, 0.335, 1);
 }
@@ -441,7 +441,7 @@ input {
 }
 input:focus {
 	transition: border-color .25s;
-	border-color: #ffb471;
+	border-color:  #43a2a8;
 }
 textarea {
 	display: block;
@@ -538,7 +538,7 @@ font-weight: bold;
 transition: all, 0.3s;
 }
 footer .social a:hover {
-background-color: #ffb471;
+background-color: #43a2a8;
 -moz-transition: all, 0.3s;
 -o-transition: all, 0.3s;
 -webkit-transition: all, 0.3s;
@@ -668,7 +668,7 @@ cursor: pointer;
 text-decoration: none;
 }
 .gallery-container .arrow-container:hover .arrow {
-color: #ffb471;
+color:  #43a2a8;
 }
 .gallery-container .arrow-container.arrow-container-left {
 left: 0;
@@ -887,7 +887,7 @@ color: #000;
 }
 .wrapp {
 background: #fff;
-	color: #ffb471;
+	color:  #43a2a8;
 }
 .page-title {
 font-weight: 600;
@@ -1006,7 +1006,7 @@ height: auto;
 }
 .desktop {
     font-size: 9.85em;
-    color: #ffb471;
+    color:  #43a2a8;
     padding: 0;
     font-weight: 700;
        display: flex;
@@ -1018,7 +1018,7 @@ main .hero h1 {
     line-height: normal;
     font-size: 2em;
     text-align: left;
-    color:#ffb471;
+    color: #43a2a8;
     font-weight: 600;
     padding-left: 5.5em;
     margin-top: -120px;
@@ -1169,8 +1169,8 @@ main .hero h1 {
     opacity: 1;
   }
 }
-c {color: #45a6ad;}
-d {color:#e6a165;}
+c {color:  #43a2a8}
+d {color: #43a2a8;}
 
 .fa-behance:before {
 font-family: FontAwesome; 
@@ -1187,13 +1187,13 @@ font-family: FontAwesome;
 font-family: FontAwesome; 
 }
 
-#logo {color: #ffb471;
+#logo {color:  #43a2a8;
 font-family: 'K95Alphabet';}
 
 #rectangle {
   width: 85px;
   height: 200px;
-  background: #ffb471;
+  background:  #43a2a8;
     margin-left: 15.3rem;
     margin-bottom: -170px;
 }
