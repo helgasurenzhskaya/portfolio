@@ -928,6 +928,11 @@ margin-right: -50px;
 .sec-testimonials p {
 font-style: italic;
 }
+
+.articles__list {display:none;}
+
+
+
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap");
 .articles__list a {
 color: #000;
@@ -1456,4 +1461,4 @@ main .hero {
 		 #about { padding: 3rem; padding-top: 3rem; padding-bottom: 0;}}
 	 
 	 #mobgal {padding-top: 0;}
-	 .articles_list {display:none;}
+	 .articles__list {display:none;}
