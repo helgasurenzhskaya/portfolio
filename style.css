@@ -20,6 +20,14 @@ scrollbar-width: thin;
     border: 2px solid white; 
     background:#c7cfd1;
 } 
+::selection {
+background: black ; /* Safari */
+color: white;
+}
+::-moz-selection {
+background: black ; /* Firefox */
+color: white;
+}
 body {
 	background-color: #c7cfd1;
 	color: #fff;
