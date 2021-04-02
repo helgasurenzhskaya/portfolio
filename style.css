@@ -1487,3 +1487,10 @@ main .hero {
 	 
 	 #mobgal {padding-top: 0;}
 	 .articles__list {display:none;}
+	 
+	 
+	 video {
+    max-width: calc(100% - 30px);
+    height: auto;
+    margin: 15px 15px 15px 0;
+}
