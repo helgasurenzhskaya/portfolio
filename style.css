@@ -1128,6 +1128,15 @@ main .hero h1 {
 	main {
 	padding-top: 0;
 }
+	
+	
+	@media (max-width: 449px) {
+	#iq{
+		display:none;
+	}
+	}
+	
+	
 }
 @media (min-width: 449px) {
 	#mobgal{
