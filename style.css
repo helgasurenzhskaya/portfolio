@@ -1130,12 +1130,6 @@ main .hero h1 {
 }
 	
 	
-	@media (max-width: 449px) {
-	#iq{
-		display:none;
-	}
-	}
-	
 	
 }
 @media (min-width: 449px) {
@@ -1503,3 +1497,10 @@ main .hero {
     height: auto;
     margin: 15px 15px 15px 0;
 }
+	 
+	 @media (max-width: 449px) {
+	#iq{
+		display:none;
+	}
+	}
+	
