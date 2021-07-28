@@ -29,7 +29,8 @@
     video.play();
 	
 	
-
+webview.setWebChromeClient(new WebChromeClient());
+webview.getSettings().setMediaPlaybackRequiresUserGesture(false);
 	
 	
     (function(h,o,t,j,a,r){
