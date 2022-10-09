@@ -1341,11 +1341,11 @@ main h2::before {
 	 width: calc(100% - 30px);
 	 margin: 15px 15px 15px 0;
 }
- @media (max-width: 590px) {
+ /*@media (max-width: 590px) {
 	 .wrapperr {
 		 flex-direction: column !important;
 		 align-items: center !important;
-	}
+	}*/
 	 
 	 .fa-chevron-down {
 		 display: block !important;
@@ -1371,11 +1371,11 @@ main h2::before {
  .mainn-content {
 		 width: calc(100% - 0px) !important;
 	}
- @media (max-width: 1000px){
+/* @media (max-width: 1000px){
 .wrapperr .mainn-content {
    
     flex-direction: column;
-}
+}*/
 	 
 	
 	.mobile {
