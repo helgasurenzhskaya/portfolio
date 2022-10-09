@@ -1129,9 +1129,14 @@ main .hero h1 {
 	padding-top: 0;
 }
 	
-	
+	@media (max-width: 449px) {
+	.reggae{
+		display:none;
+	}
 	
 }
+	
+	
 @media (min-width: 449px) {
 	#mobgal{
 		display:none;
