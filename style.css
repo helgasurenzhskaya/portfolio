@@ -401,11 +401,11 @@ body > .container-fluid {
 }
 
 
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
 	.stats-listing li {
 		width: 50%;
 	}
-}*/
+}
 
 .stats-listing .count {
 	display: block;
