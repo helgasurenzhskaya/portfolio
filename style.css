@@ -407,7 +407,7 @@ body > .container-fluid {
 .stats-listing .count {
 	display: block;
 	font-size: auto;
-	font-weight: 400;
+	font-weight: 600;
 }
 .stats-listing .count:after {
 	border-bottom: 1.5px solid black;
