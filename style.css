@@ -117,7 +117,7 @@ font-style: normal;
 
 main a {
 	color: inherit;
-	border-bottom: 2px solid;
+	border-bottom: 1px solid;
 }
 main a:hover {
 	border-color:  #50bfc7;
@@ -1221,7 +1221,7 @@ main .hero h1 {
   }
 }
 c {color:  #43a2a8}
-d {color: #43a2a8;}
+d {color: #000;}
 
 .fa-behance:before {
 font-family: FontAwesome; 
