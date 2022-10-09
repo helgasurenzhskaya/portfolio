@@ -1298,12 +1298,6 @@ main h2::before {
 
 
 
-
-
-
-
-
-
  .wrapperr {
 	
 	 height: auto;
@@ -1374,7 +1368,6 @@ main h2::before {
  .mainn-content {
 		 width: calc(100% - 0px) !important;
 	}
-
  @media (max-width: 1000px){
 .wrapperr .mainn-content {
    
@@ -1382,7 +1375,6 @@ main h2::before {
 }
 	 
 	
-
 	.mobile {
     color: #50bfc7;
 		font-size: 70.4px;
@@ -1408,7 +1400,6 @@ main h2::before {
 		font-size: 4em;
 	}
 }
-
 	 @media (min-width: 899px) {
 main .hero {
 	background: #000;
@@ -1453,7 +1444,6 @@ main .hero {
 .has-animation.animation-rtl.animate-in:after {
   animation: revealRTL 1s .6s ease;
 }
-
 @keyframes revealRTL {
   0% {
     width: 0;
