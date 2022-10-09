@@ -399,11 +399,14 @@ body > .container-fluid {
 	text-align: left;
 	width: 30%;
 }
-@media (max-width: 768px) {
+
+
+/*@media (max-width: 768px) {
 	.stats-listing li {
 		width: 50%;
 	}
-}
+}*/
+
 .stats-listing .count {
 	display: block;
 	font-size: auto;
