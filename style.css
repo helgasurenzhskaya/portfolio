@@ -86,14 +86,14 @@ header a {
 	letter-spacing: 2px;
 }
 header a:hover::first-letter {
-	color: #000;
+	color: #3D3D3D;
 }
 nav {
 	float: right;
 }
 nav li {
 	display: inline;
-	margin-left: 1em;
+	margin-left: 2em;
 }
 
 
