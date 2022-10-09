@@ -1305,21 +1305,21 @@ main h2::before {
 	
 	 height: auto;
 	 padding-top: 20px;
-	 display: flex;
-	 flex-direction: row;
+	 display: flex; !important
+	 flex-direction: row;!important
 	 justify-content: flex-start;
 	 align-items: flex-start;
 	 padding-bottom:5em;
 }
  
  .wrapperr .mainn-content {
-	 width: calc(100% - 270px);
+	 width: calc(100% - 270px);!important
 	 min-width: 300px;
 	 height: auto;
 	 
 	
-	 display: flex;
-	 flex-direction: row;
+	 display: flex; !important
+	 flex-direction: row; !important
 	 flex-wrap: wrap;
 	 justify-content: stretch;
 }
@@ -1330,23 +1330,22 @@ main h2::before {
 	 padding-top: 0px;
 }
  .wrapperr .mainn-content .column-one .image {
-	 width: calc(100% - 30px);
+	 width: calc(100% - 30px);!important
 	 margin: 15px 15px 15px 0;
 }
  .wrapperr .mainn-content .column-two .image {
-	 width: calc(100% - 30px);
+	 width: calc(100% - 30px);!important
 	 margin: 15px 15px 15px 0;
 }
  .wrapperr .mainn-content .column-three .image {
-	 width: calc(100% - 30px);
+	 width: calc(100% - 30px);!important
 	 margin: 15px 15px 15px 0;
 }
- /*@media (max-width: 590px) {
+ @media (max-width: 590px) {
 	 .wrapperr {
 		 flex-direction: column !important;
 		 align-items: center !important;
-	}*/
-	 
+	}
 	 .fa-chevron-down {
 		 display: block !important;
 		 flex: 0.23;
@@ -1367,15 +1366,19 @@ main h2::before {
 		 width: calc(100% - 0px) !important;
 	}
 }
+	
  
  .mainn-content {
 		 width: calc(100% - 0px) !important;
 	}
-/* @media (max-width: 1000px){
+	
+ @media (max-width: 1000px){
 .wrapperr .mainn-content {
-   
     flex-direction: column;
-}*/
+}
+	}
+	
+	
 	 
 	
 	.mobile {
