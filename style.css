@@ -86,7 +86,7 @@ header a {
 	letter-spacing: 2px;
 }
 header a:hover::first-letter {
-	color: #3D3D3D;
+	color: #2B8088;
 }
 nav {
 	float: right;
