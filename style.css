@@ -89,7 +89,7 @@ header a:hover::first-letter {
 	color: #2B8088;
 }
 nav {
-	/*float: right;*/
+	float: right;
 }
 nav li {
 	display: inline;
