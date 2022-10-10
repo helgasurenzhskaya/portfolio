@@ -1131,12 +1131,12 @@ main .hero h1 {
 	main {
 	padding-top: 0;
 }
+}
 	
 	@media (max-width: 449px) {
-	.reggae{
+	.reggae {
 		display:none;
-	}
-	
+	}	
 }
 	
 	
@@ -1313,16 +1313,15 @@ main h2::before {
 }
  
  .wrapperr .mainn-content {
-	 width: calc(100% - 270px);!important
+	 width: calc(100% - 270px); !important
 	 min-width: 300px;
 	 height: auto;
-	 
-	
 	 display: flex; !important
 	 flex-direction: row; !important
 	 flex-wrap: wrap;
 	 justify-content: stretch;
 }
+
  .wrapperr .mainn-content .column {
 	 text-align: right;
 	 flex: 1;
@@ -1376,10 +1375,7 @@ main h2::before {
 .wrapperr .mainn-content {
     flex-direction: column;
 }
-	}
 	
-	
-	 
 	
 	.mobile {
     color: #50bfc7;
@@ -1392,6 +1388,9 @@ main h2::before {
     align-content: center;
 		padding-top: 3rem;
 }
+}	 
+	 
+	 
 	 @media (max-width: 360px) {
 .mobile{
 	font-size: 70.4px;
