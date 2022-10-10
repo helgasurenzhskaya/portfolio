@@ -1245,8 +1245,8 @@ main .hero h1 {
 #mobgal .tile {
 	margin-right: 5px;
         margin-left: 5px;
-	width: 1000px;
-	height: auto;
+	width: fit-content;
+	height: 400px;
 }
 
 
@@ -1497,7 +1497,7 @@ main .hero {
 	 @media (max-width: 699px) {
 		 #about { padding: 3rem; padding-top: 3rem; padding-bottom: 0;}}
 	 
-	/* #mobgal {padding-top: 0;}*/
+	 #mobgal {padding-top: 0;}
 	
 	 
 	 
