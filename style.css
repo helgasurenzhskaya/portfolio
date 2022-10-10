@@ -228,7 +228,7 @@ main > p {
 	 margin: 15px 15px 15px 0;
 }
  .wrapperr .mainn-content .column-three .image {
-	 width: calc(100% - 30px);!important
+	 /*width: calc(100% - 30px);!important*/
 	 margin: 15px 15px 15px 0;
 }
  @media (max-width: 590px) {
