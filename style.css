@@ -828,7 +828,7 @@ overflow: hidden;
 .tile {
 height: auto;
 background: #000;
-width: 260px;
+width: 45%;
 display: inline-block;
 margin-right: 12px;
 margin-left: 12px;
