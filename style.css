@@ -1244,7 +1244,8 @@ main .hero h1 {
 #mobgal .tile {
 	margin-right: 5px;
         margin-left: 5px;
-	height: 400px;
+	width: 400px;
+	height: auto;
 }
 
 
