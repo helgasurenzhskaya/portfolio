@@ -1087,6 +1087,7 @@ line-height: 40px;
 }
 .article__item .article__body {
 flex: 1 1 auto;
+	margin-left: 1em;
 }
 .article__item .article__category {
 z-index: 1;
