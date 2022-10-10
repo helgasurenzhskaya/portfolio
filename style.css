@@ -1217,7 +1217,7 @@ main .hero h1 {
 	-ms-flex-align: center;
 	-webkit-align-items: center;
 	align-items: center;
-	width: 60%;
+	width: 1000px;
 }
 @media (max-width: 449px) {
 	#deskgal{
@@ -1248,7 +1248,7 @@ main .hero h1 {
 	width: 1000px;
 	height: auto;
 }
-#mobgal {height: 1000px;}
+
 
 
 .touch {
