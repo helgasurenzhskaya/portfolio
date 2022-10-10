@@ -219,7 +219,7 @@ main > p {
 	 padding-top: 0px;
 }
  .wrapperr .mainn-content .column-one .image {
-	 width: calc(100% - 30px);!important
+	 /*width: calc(100% - 30px);!important*/
 	 margin: 15px 15px 15px 0;
 }
  .wrapperr .mainn-content .column-two .image {
