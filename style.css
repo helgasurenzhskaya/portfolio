@@ -219,16 +219,16 @@ main > p {
 	 padding-top: 0px;
 }
  .wrapperr .mainn-content .column-one .image {
-	 /*width: calc(100% - 30px);!important*/
+	 width: calc(100% - 30px);!important
 	 margin-top: 1em;
 	 margin: 15px 15px 15px 0;
 }
  .wrapperr .mainn-content .column-two .image {
-	 /*width: calc(100% - 30px);!important*/
+	 width: calc(100% - 30px);!important
 	 margin: 15px 15px 15px 0;
 }
  .wrapperr .mainn-content .column-three .image {
-	 /*width: calc(100% - 30px);!important*/
+	 width: calc(100% - 30px);!important
 	 margin: 15px 15px 15px 0;
 }
  @media (max-width: 590px) {
@@ -1501,7 +1501,7 @@ main .hero {
 	 
 	 
 	 video {
-    /*max-width: calc(100% - 30px);*/
+    max-width: calc(100% - 30px);
     height: auto;
     margin: 15px 15px 15px 0;
 }
