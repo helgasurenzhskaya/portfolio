@@ -29,27 +29,104 @@
 
 <body>
 
-<nav role="navigation">
-    <ul id="main-menu" role="menubar" aria-label="Main menu">
-        <li role="menuitem" aria-haspopup="true" tabindex="0">
-            <a href="/home">Home</a>
-        </li>
-        <li role="menuitem" aria-haspopup="true" tabindex="0">
-            <a href="/about">About</a>
-            <ul role="menu" aria-label="About submenu">
-                <li role="menuitem" tabindex="0">
-                    <a href="/about/team">Our Team</a>
-                </li>
-                <li role="menuitem" tabindex="0">
-                    <a href="/about/history">Our History</a>
-                </li>
-            </ul>
-        </li>
-        <li role="menuitem" aria-haspopup="true" tabindex="0">
-            <a href="/contact">Contact</a>
-        </li>
-    </ul>
-</nav>
+    <header>
+    <nav aria-label="Main navigation">
+        <ul role="menubar">
+            <li role="none" style="margin-left: 0em;">
+                <a href="#about" role="menuitem" tabindex="0">About</a>
+            </li>
+            <li role="none">
+                <a href="#works" role="menuitem" tabindex="0">Works</a>
+            </li>
+            <li role="none">
+                <a href="./O.Polishchuk_CV.pdf" target="_blank" role="menuitem" tabindex="0" 
+                aria-label="CV (Opens in a new tab)">CV</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+    <main id="hero">
+    <section id="about" aria-labelledby="about-heading">
+        <h2 id="about-heading">About me</h2>
+        <div class="page-content">
+            <!-- Graphic -->
+            <figure class="graphic has-animation animation-ltr" data-delay="10">
+                <img src="img/avatr2.jpeg" alt="Image of UI/UX & Graphic designer">
+                <figcaption style="color: #000;">
+                    ∀design ∈ true ⇔  meaning ∧ (function ⇒ form)
+                </figcaption>
+            </figure>
+            <!-- Text content -->
+            <div class="text text-content animm">
+                <p>
+                    As one said, "designer is a creator of meaning and form" — and that's exactly who I am. <br><br> 
+                    I help brands to embody strong visual communications, consistent interfaces, and efficient user experiences.
+                </p>
+                <p>
+                    What's so special in my designs?<br> 
+                    The answer is simple — I develop thoughtful concepts to unveil the story of the project. 
+                    It is a problem-solving process that transforms the project's attitude into the hewn, visual form of its essence.
+                </p>
+                <p>
+                    Also, I'm an aspiring ARTivist, who believes that modern technologies and digital art can bring profound changes to the world. 
+                    That's why I am passionate about my work.
+                </p>
+
+                <div class="cta">
+                    <a href="mailto:helge.designer@gmail.com">Get in touch</a>, 
+                    let's make something awesome together!
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+    <div class="stats section" role="region" aria-labelledby="headline-achievement">
+  <h2 id="headline-achievement">Key Achievements</h2>
+  <ul class="stats-listing">
+    <li>
+      <strong>NFT-museum participant:</strong> <a href="https://metahistory.gallery/collection/warline" target="_blank" aria-label="Meta History Museum of War (Opens in a new tab)">Meta History Museum of War</a>.
+      <br> Selected NFT: digital video collage "Nuclear Cycle" day 96 18:45 30 May 2022 #0553.
+      <br> <span>2022</span>
+    </li>
+    <!-- Further list items -->
+  </ul>
+</div>
+
+<div class="wrapperr" id="works">
+  <section class="mainn-content">
+    <div class="column-one column">
+      <div class="articles__list">
+        <article class="article__item">
+          <figure class="article__photo">
+            <a class="article__photo__a" href="https://www.behance.net/gallery/124490227/Vego-food-delivery-app?" target="_blank" aria-label="Vego food delivery app (Opens in a new tab)" rel="noreferrer noopener">
+              <img src="img/Vego.jpg" alt="screenshot of Vego food delivery app" class="article__image">
+            </a>
+          </figure>
+          <div class="article__body">
+            <div class="article__category">Published on <a class="category__name category__name--twitter" href="https://www.behance.net/surenzh" aria-label="Behance.net (Opens in a new tab)" rel="noreferrer noopener">Behance.net</a></div>
+            <h4 class="article__title"><a class="article__title__a" href="https://www.behance.net/gallery/124490227/Vego-food-delivery-app?" target="_blank" aria-label="Vego food delivery app on Behance.net (Opens in a new tab)" rel="noreferrer noopener">Vego — food delivery app</a></h4>
+            <div class="article__date">
+              <time class="article__time" datetime="2021-07-31">July 2021</time>
+            </div>
+            <a href="https://www.behance.net/gallery/124490227/Vego-food-delivery-app?" target="_blank" rel="noreferrer noopener" class="view-project">View project</a>
+          </div>
+        </article>
+      </div>
+    </div>
+    <div class="column-two column">
+      <a class="touch" href="#" aria-label="Video Content">
+        <video autoplay loop poster="img/job.jpg" muted>
+          <source src="img/job.mp4" type="video/mp4">
+          <source src="img/job.webm" type="video/webm">
+        </video>
+      </a>
+    </div>
+    <div class="column-three column"></div>
+  </section>
+</div>
+
   
 </body>
 </html>
