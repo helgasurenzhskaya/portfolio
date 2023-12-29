@@ -126,7 +126,64 @@
     <div class="column-three column"></div>
   </section>
 </div>
+<div ng-app="myApp" ng-controller="MyCtrl">
+  <script type="text/ng-template" id="expandable_fixed_height.html">
+    <div>
+      <div class="fixed-height" ng-transclude></div>
+      <a class="toggle-trigger" tabindex="0" aria-expanded="false">Show more</a>
+    </div>
+  </script>
 
+  <div id="deskgal" class="gallery-container">
+    <button class="arrow-container arrow-container-left" ng-click="left()" aria-label="Previous">
+      <i class="fa fa-angle-left fa-" aria-hidden="true"></i>
+    </button>
+    <button class="arrow-container arrow-container-right" ng-click="right()" aria-label="Next">
+      <i class="fa fa-angle-right fa-" aria-hidden="true"></i>
+    </button>
+    <div class="gallery-content">
+      <div class="tile">
+        <img src="img/iq_p.gif" alt="Interior & architecture design studio posters for construction process">
+      </div>
+      <!-- additional tiles -->
+    </div>
+  </div>
+  
+  <div id="mobgal" class="gallery-container">
+    <div class="gallery-content">
+      <!-- Swiper -->
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <!-- swiper-slides -->
+          <div class="swiper-slide">
+            <div class="tile">
+              <img src="img/iq_p.gif" alt="Interior & architecture design studio posters for construction process">
+            </div>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.14/angular.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+</div>
+
+    <footer id="footer">
+  <div class="wrapper">
+    <div class="copyright">
+      <p>&copy; O. Polishchuk, 2019</p>
+    </div>
+    <div class="social">
+      <a href="mailto:helge.designer@gmail.com" aria-label="Support Email" class="support">helge.designer@gmail.com</a>
+      <a href="https://www.behance.net/surenzh" target="_blank" class="face fa fa-behance" aria-label="Behance Profile"></a>
+      <a href="https://www.instagram.com/surenzh.art/" target="_blank" class="face fa fa-instagram" aria-label="Instagram Profile"></a>
+      <a href="https://t.me/surenzh" target="_blank" class="linked fa fa-send" aria-label="Telegram Profile"></a>
+    </div>
+  </div>
+</footer>
   
 </body>
 </html>
