@@ -11,10 +11,10 @@
      background: #EDF3F3;
 }
  ::-webkit-scrollbar-track {
-     border-radius: 0px;
+     border-radius: 0;
 }
  ::-webkit-scrollbar-thumb {
-     border-radius: 0px;
+     border-radius: 0;
      border: 2px solid white;
      background:#c7cfd1;
 }
@@ -115,14 +115,6 @@
      padding: 6rem 0 6rem 0;
      margin: 0 3em;
 }
- main .hero h1 {
-     line-height: normal;
-     font-size: 5em;
-     text-align: center;
-     color: #000;
-     font-weight: 600;
-     display: none;
-}
  main .hero hr {
      height: 3px;
      background: #000;
@@ -156,16 +148,6 @@
      padding: 0 0 3em;
 }
 /*====================RESPONSIVE TWEAKS====================*/
- @media (max-width: 550px) {
-     main .hero h1 {
-         font-size: 1.8em;
-    }
-}
- @media (max-width: 365px) {
-     main .hero h1 {
-         font-size: 1.4em;
-    }
-}
  .wrapperr {
      height: auto;
      padding-top: 20px;
@@ -358,10 +340,6 @@
      color: white;
      padding-bottom: 2em;
 }
- #portfolio h2 {
-     padding-bottom: 1em;
-     padding-top: 1em;
-}
  @media screen and (min-width: 768px) {
      .portfolio-projects {
          margin-top: 0.625em;
@@ -385,7 +363,7 @@
      background: transparent;
      color: #fff;
      border: 1px solid #ddd;
-     border-radius: 0px;
+     border-radius: 0;
      margin-bottom: 1.25em;
 }
  .portfolio-projects--btn:hover {
@@ -555,11 +533,6 @@
  button:focus {
      outline: none;
 }
- #contact h2 {
-     color: black;
-     padding-bottom: 1%;
-     text-align: left;
-}
  @media (max-width: 450px) {
      .input {
          position: relative;
@@ -573,11 +546,6 @@
      .split-screen {
          flex-direction: column;
     }
-}
- #contact h2 {
-     color: black;
-     padding-top: 5%;
-     text-align: left;
 }
  footer {
      width: 100%;
@@ -880,13 +848,6 @@
      margin-bottom: 50px;
      margin-top: 0;
 }
- .section_title h2 {
-     color: #333333;
-     font-size: 25px;
-     font-weight: 600;
-     letter-spacing: 1.8px;
-     text-transform: uppercase;
-}
  .brand_border .fa.fa-minus {
      color: #fff;
      font-size: 8px;
@@ -931,16 +892,6 @@
      padding-top: 0;
 }
  @media (max-width: 550px){
-     main .hero h1 {
-         font-size: 3em;
-        /* text-align: center;
-         */
-         padding: 0.5em;
-         line-height: normal;
-        /* left: 61%;
-         */
-         margin-top: 0;
-    }
      hr {
          display: none;
     }
@@ -1026,12 +977,6 @@
      display: flex;
      position: relative;
 }
- .article__item h2 {
-     font-family: 'Raleway', sans-serif;
-     font-size: 30px;
-     margin-top: .5rem;
-     line-height: 40px;
-}
  .article__item .article__body {
      flex: 1 1 auto;
      margin-left: 1em;
@@ -1106,28 +1051,6 @@
      display: flex;
      align-content: center;
      background: #000;
-}
- main .hero h1 {
-     line-height: normal;
-     font-size: 2em;
-     text-align: left;
-     color: #43a2a8;
-     font-weight: 600;
-     padding-left: 5.5em;
-     margin-top: -120px;
-}
- @media (max-width: 900px){
-     main .hero h1 {
-         line-height: normal;
-         font-size: 2em;
-         text-align: left;
-         font-weight: 600;
-         padding-left: 3rem;
-         padding-right: 3rem;
-        /*padding-top: 0;
-        */
-         margin-top: 0;
-    }
 }
  @media (min-width: 899px) {
      .mobile{
